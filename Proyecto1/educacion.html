@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Educacion</title>
+		<meta charset="utf-8">
+		<meta name= "viewport" content= "width=device-width, initial-scale=1.0">			
+		<nav>	
+			<a href="index.html">Inicio</a>
+			<a href="educacion.html">Educación</a>
+			<a href="experiencia.html">Experiencia</a>
+		</nav>
+		<h1><img src = "img/logo.svg" title = "Logo" alt="Logo de la hoja de vida" width="100">Hoja de vida</h1>
+		<h2>Datos personales</h2>
+		<p><strong>Nombre:</strong> Armando<br> 		
+			<strong>Apellidos:</strong> Caleño Asanza<br>
+			<strong>Lugar de nacimiento:</strong> Guayaquil
+		</p>
+	</head>
+	<body>		
+		
+		<h2>Educación</h2>
+		<table border="1" cellpadding= 10" cellspacing="0">
+			<thead>
+				<tr>
+				<th>Año</<th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>				
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td>2000</<td>
+				<td>Universidad Laica Vicente Rocafuerte</td>
+				<td>Guayaquil</td>
+				<td>No</td>				
+				</tr>
+				<tr>
+				<td>2006</<td>
+				<td>Conservatorio de música Sergei Rachmaninov</td>
+				<td>Guayaquil</td>
+				<td>No</td>				
+				</tr>
+				<tr>
+				<td>2014</<td>
+				<td>Universidad Estatal de Guayaquil</td>
+				<td>Guayaquil</td>
+				<td>No</td>				
+				</tr>
+			</tbody>
+		</table>
+		<h2>Agregar estudios</h2>
+		<form>
+			<p>
+				<label for="combo"><strong>Año:</strong></label>
+				<br>
+				<select name="combo">
+					<option value="1">2016</option>
+					<option value="2">2017</option>
+					<option value="3">2018</option>
+				</select>
+			</p>	
+			<p>
+				<label for="institucion"><strong>Institución:</strong></label>
+				<br>
+				<input type ="text" name="institucion" placeholder="Ej: Universidad Estatal" required>
+			</p>
+			<p>
+				<label for="lugar"><strong>Lugar:</strong></label>
+				<br>
+				<textarea name="lugar" id="" cols="30" rows="3"></textarea>
+			</p>			
+			<p>
+				<input type="submit" value="Enviar">
+			</p>
+		</form>
+	</body>
+	<footer>	
+		<p>
+			<h3>Contacto</h3>
+			<a href="mailto:armandoc_81@hotmail.com" target="_blank">Email</a><br>Teléfono: 0986568696<br>Facebook: Armando Caleño			
+		</p>
+	</footer>
+</html>
